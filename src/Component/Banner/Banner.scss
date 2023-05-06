@@ -1,0 +1,40 @@
+.bannerContainer {
+  height: 80vh;
+  padding: 10px;
+  background-size: cover;
+  color: white;
+}
+
+.filmTittle {
+  margin-top: 50px;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.buttonGroupBanner > button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  // font-weight: 700;
+  width: 120px;
+  height: 50px;
+  border-radius: 2px;
+  margin-right: 1rem;
+  padding: 0.5rem 2rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  transition: all 0.2s ease-in;
+}
+
+.buttonGroupBanner > button:hover {
+  background-color: #111;
+}
+
+.filmOverview {
+  width: 45rem;
+  line-height: 1.8rem;
+  padding-top: 1rem;
+  font-size: 1.1rem;
+  max-width: 470px;
+  height: 80px;
+}

@@ -1,0 +1,18 @@
+.movieDetailContainer {
+  display: flex;
+  flex-basis: auto;
+  padding: 20px 40px;
+  justify-content: space-around;
+}
+
+.movieDetailDescription {
+  width: 50%;
+}
+
+.movieDetailTrailer {
+  text-align: center;
+}
+
+.trailerPoster {
+  height: 400px;
+}

@@ -1,0 +1,31 @@
+.searchResultContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.searchResultContainer > img {
+  max-height: 250px;
+  margin: 10px;
+}
+.searchResult {
+  color: #fff;
+}
+
+.searchResult > h2 {
+  margin-left: 20px;
+}
+
+.moviePosterContainer {
+  margin: 20px;
+}
+
+.searchMoviePoster {
+  max-height: 250px;
+  width: auto;
+  transition: transform 450ms;
+  margin: 20px;
+}
+
+.searchMoviePoster:hover {
+  transform: scale(1.1);
+}

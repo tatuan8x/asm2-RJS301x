@@ -1,0 +1,30 @@
+.navbarContainer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 10;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+}
+
+.navbarBlack {
+  background-color: rgb(60, 60, 60);
+}
+
+.navbarAppName {
+  font-size: 2rem;
+  color: crimson;
+  font-weight: 600;
+  position: fixed;
+  left: 20px;
+}
+
+.searchIcon {
+  position: fixed;
+  right: 30px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
